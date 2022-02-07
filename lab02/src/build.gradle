@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     // Use JUnit Jupiter for testing.
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+    implementation 'com.guicedee.services:commons-csv:1.2.1.2-jre17'
 }
 
 gradlePlugin {
