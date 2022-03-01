@@ -12,5 +12,5 @@
     </padding>
 
 
-    <Button fx:id="buttonRegister" text="Register" onAction="#onRegister" visible="false"/>
+    <Button fx:id="Registered" text="Register" onAction="#register" />
 </VBox>
