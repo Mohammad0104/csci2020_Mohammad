@@ -6,12 +6,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-
+import javafx.event.ActionEvent;
 import java.io.IOException;
 
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+
         Label nameLabel=new Label("Username:");
         Label nameLabel1=new Label("Password:");
         Label nameLabel2=new Label("Full Name:");
@@ -56,16 +58,14 @@ public class HelloApplication extends Application {
 
         gridPane.add(buttonRegister,1,6);
 
-        buttonRegister.setStyle(
-                "-fx-background-color:black; -fx-text-fill: white;"
-        );
-        Scene scene = new Scene( gridPane);
+
+
+        Scene scene = new Scene( gridPane, 320, 240);
         stage.setTitle("Lab04 Solution");
         stage.setScene(scene);
         stage.show();
     }
-
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }
