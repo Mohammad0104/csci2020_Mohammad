@@ -56,7 +56,7 @@ public class HelloApplication extends Application {
         gridPane.add(buttonRegister,1,6);
 
         buttonRegister.setStyle(
-                "-fx-background-color:blue; -fx-text-fill: white;"
+                "-fx-background-color:black; -fx-text-fill: white;"
         );
         Scene scene = new Scene( gridPane);
         stage.setTitle("Lab04 Solution");
@@ -65,6 +65,6 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch(args);
+        launch();
     }
 }
