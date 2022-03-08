@@ -1,2 +1,4 @@
-package com.example.HelloApplication;public class g {
+package com.example.HelloApplication;
+
+public class g {
 }

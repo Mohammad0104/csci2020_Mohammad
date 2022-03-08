@@ -30,7 +30,7 @@ public class HelloController {
 
     @FXML
     void OnActionSendButton(ActionEvent event) {
-        System.out.println(Username.getText()+": " + "\n" + ChatBox.getText());
+        System.out.println(Username.getText() + ": " + "\n" + ChatBox.getText());
 
     }
 }

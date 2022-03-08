@@ -30,13 +30,13 @@ public class HelloController {
     }
     String gpa(float FinalMark) {
         String LetterGrade = "";
-        if (FinalMark >= 80.00f) {
+        if (FinalMark >= 80f && FinalMark<=100f) {
             LetterGrade = "A";
-        } else if (FinalMark >=70.00f & FinalMark <= 79.00f) {
+        } else if (FinalMark >=70f && FinalMark <= 79f) {
             LetterGrade = "B";
-        } else if (FinalMark >=60.00f & FinalMark <= 69.00f) {
+        } else if (FinalMark >=60f && FinalMark <= 69f) {
             LetterGrade = "C";
-        } else if (FinalMark >=50.00f & FinalMark <= 59f) {
+        } else if (FinalMark >=50f && FinalMark <= 59f) {
             LetterGrade = "D";
         } else   {
             LetterGrade = "F";
