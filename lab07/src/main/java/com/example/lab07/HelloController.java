@@ -23,7 +23,7 @@ public class HelloController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         int[] data = getCounts();
 
-        // PIE CHART
+
         ObservableList<PieChart.Data> pieChartData =
                 FXCollections.observableArrayList(
                         new PieChart.Data("Flash Flood", data[0]),
