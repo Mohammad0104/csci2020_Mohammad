@@ -20,23 +20,9 @@ public class HelloController implements Initializable {
     private PieChart pieChart;
 
 
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        int[] data = getCounts();
 
 
-        ObservableList<PieChart.Data> pieChartData =
-                FXCollections.observableArrayList(
-                        new PieChart.Data("Flash Flood", data[0]),
-                        new PieChart.Data("Tornado", data[1]),
-                        new PieChart.Data("Severe Thunderstorm", data[2]),
-                        new PieChart.Data("Special Marine", data[3])
-                );
-
-        pieChart.setData(pieChartData);
-
-    }
-
-    public int[] getCounts() {
+    public int[] Counts() {
 
         String file = "B:\\2nd Year\\2nd semester\\lab07\\src\\main\\java\\com\\example\\lab07/weatherwarnings-2015.csv";
         BufferedReader reader = null;
@@ -79,6 +65,21 @@ public class HelloController implements Initializable {
 
         }
         return counts;
+
+    }
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        int[] data = Counts();
+
+
+        ObservableList<PieChart.Data> pieChartData =
+                FXCollections.observableArrayList(
+                        new PieChart.Data("Flash Flood", data[0]),
+                        new PieChart.Data("Tornado", data[1]),
+                        new PieChart.Data("Severe Thunderstorm", data[2]),
+                        new PieChart.Data("Special Marine", data[3])
+                );
+
+        pieChart.setData(pieChartData);
 
     }
 }
