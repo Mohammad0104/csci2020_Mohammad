@@ -33,7 +33,7 @@ public class HelloApplication extends Application {
 
         plotLine(gc, google, Color.RED);
         plotLine(gc, apple, Color.BLUE);
-        primaryStage.setTitle("Lab 09");
+        primaryStage.setTitle("Lab09");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
