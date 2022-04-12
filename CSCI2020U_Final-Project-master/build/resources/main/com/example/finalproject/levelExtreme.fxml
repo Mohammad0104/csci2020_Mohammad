@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ExtremePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.GameController">
+    <children>
+        <Text fx:id="LevelExtremeTitle" layoutX="344.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level Extreme">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Text>
+        <Text fx:id="ExtremeQue1" layoutX="283.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is 75 ÷ 5 ?">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="ExtremeQue1Ch1" layoutX="198.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionExtremeQue1Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 45" />
+        <Button fx:id="ExtremeQue1Ch2" layoutX="300.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionExtremeQue1Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 15" />
+        <Button fx:id="ExtremeQue1Ch3" layoutX="400.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionExtremeQue1Ch3" prefHeight="30.0" prefWidth="85.0" text="C: 25" />
+        <Button fx:id="ExtremeQue1Ch4" layoutX="500.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionExtremeQue1Ch4" prefHeight="30.0" prefWidth="85.0" text="D: 10" />
+        <Line fx:id="ExtremeLine1" endX="685.0" layoutX="115.0" layoutY="176.0" startX="-115.0" />
+        <Text fx:id="ExtremeQue2" layoutX="265.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is 50 ÷ 5 x 20 ?">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="ExtremeQue2Ch1" layoutX="198.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionExtremeQue2Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 176" />
+        <Button fx:id="ExtremeQue2Ch2" layoutX="300.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionExtremeQue2Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 180" />
+        <Button fx:id="ExtremeQue2Ch3" layoutX="400.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionExtremeQue2Ch3" prefHeight="30.0" prefWidth="85.0" text="C: 165" />
+        <Button fx:id="ExtremeQue2Ch4" layoutX="500.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionExtremeQue2Ch3" prefHeight="30.0" prefWidth="85.0" text="D: 200" />
+        <Line fx:id="ExtremeLine2" endX="685.0" layoutX="115.0" layoutY="296.0" startX="-115.0" />
+        <Text fx:id="ExtremeQue3" layoutX="234.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is 528 ÷ 24 x 16 - 96 ?">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="ExtremeSubmitButton" layoutX="285.0" layoutY="436.0" mnemonicParsing="false" onAction="#OnActionExtremeSubmitButton" prefHeight="50.0" prefWidth="230.0" text="Submit" />
+        <Button fx:id="ExtremeQue3Ch1" layoutX="198.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionExtremeQue3Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 256" />
+        <Button fx:id="ExtremeQue3Ch2" layoutX="300.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionExtremeQue3Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 273" />
+        <Button fx:id="ExtremeQue3Ch3" layoutX="400.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionExtremeQue3Ch3" prefHeight="30.0" prefWidth="85.0" text="C: 346" />
+        <Button fx:id="ExtremeQue3Ch4" layoutX="500.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionExtremeQue3Ch4" prefHeight="30.0" prefWidth="85.0" text="D: 156" />
+    </children>
+</AnchorPane>

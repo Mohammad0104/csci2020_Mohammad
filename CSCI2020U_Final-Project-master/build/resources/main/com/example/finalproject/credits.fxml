@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.CreditsController">
+   <children>
+      <ImageView fitHeight="507.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CreditsBackground.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="quitButton" layoutX="301.0" layoutY="403.0" mnemonicParsing="false" onAction="#handleQuitBtn" prefHeight="52.0" prefWidth="241.0" text="Home Page">
+         <font>
+            <Font name="Thames Bold" size="25.0" />
+         </font></Button>
+      <Text fx:id="CreditsTitle" fill="WHITE" layoutX="301.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREDITS">
+         <font>
+            <Font name="Thames Italic" size="53.0" />
+         </font>
+      </Text>
+      <Text fx:id="DevTitle" fill="WHITE" layoutX="104.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developers">
+         <font>
+            <Font name="Thames Italic" size="53.0" />
+         </font>
+      </Text>
+      <Text fx:id="SpecialThanksTitle" fill="WHITE" layoutX="407.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Special Thanks">
+         <font>
+            <Font name="Thames Italic" size="53.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser1" fill="WHITE" layoutX="104.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".Mohammad">
+         <font>
+            <Font name="Thames Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser2" fill="WHITE" layoutX="101.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wahid Popal Ali Ahmad Popal">
+         <font>
+            <Font name="Thames Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser3" fill="WHITE" layoutX="104.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kaine Makimoto">
+         <font>
+            <Font name="Thames Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser4" fill="WHITE" layoutX="104.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arujan Srimohan">
+         <font>
+            <Font name="Thames Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser5" fill="WHITE" layoutX="495.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Riley Weagant">
+         <font>
+            <Font name="Thames Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser6" fill="WHITE" layoutX="495.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minh Huynh">
+         <font>
+            <Font name="Thames Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="CreditsUser7" fill="WHITE" layoutX="495.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aabid Mitha">
+         <font>
+            <Font name="Thames Italic" size="25.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

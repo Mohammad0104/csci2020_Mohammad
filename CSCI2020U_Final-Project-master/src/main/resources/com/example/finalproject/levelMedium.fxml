@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="MediumLevelPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.GameController">
+   <children>
+      <Text fx:id="MediumLevelTitle" layoutX="301.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medium Level">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="MediumQue1" layoutX="274.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is - 2 + 1 ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="MediumQue1Ch1" layoutX="200.0" layoutY="132.0" mnemonicParsing="false" onAction="#OnActionMediumQue1Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 3" />
+      <Button fx:id="MediumQue1Ch2" layoutX="301.0" layoutY="132.0" mnemonicParsing="false" onAction="#OnActionMediumQue1Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 1" />
+      <Button fx:id="MediumQue1Ch3" layoutX="400.0" layoutY="132.0" mnemonicParsing="false" onAction="#OnActionMediumQue1Ch3" prefHeight="30.0" prefWidth="85.0" text="C: -1" />
+      <Button fx:id="MediumQue1Ch4" layoutX="500.0" layoutY="132.0" mnemonicParsing="false" onAction="#OnActionMQ4Q4" prefHeight="30.0" prefWidth="85.0" text="D: 2" />
+      <Line fx:id="MediumLine1" endX="696.0" layoutX="104.0" layoutY="173.0" startX="-104.0" />
+      <Text fx:id="MediumQue2" layoutX="247.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 2: What is 12 - 5 + 3 ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="MediumQue2Ch1" layoutX="200.0" layoutY="250.0" mnemonicParsing="false" onAction="#OnActionMediumQue2Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 10" />
+      <Button fx:id="MediumQue2Ch2" layoutX="301.0" layoutY="250.0" mnemonicParsing="false" onAction="#OnActionMediumQue2Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 11" />
+      <Button fx:id="MediumQue2Ch3" layoutX="400.0" layoutY="250.0" mnemonicParsing="false" onAction="#OnActionMediumQue2Ch3" prefHeight="30.0" prefWidth="85.0" text="C: -12" />
+      <Button fx:id="MediumQue2Ch4" layoutX="500.0" layoutY="250.0" mnemonicParsing="false" onAction="#OnActionMediumQue2Ch3" prefHeight="30.0" prefWidth="85.0" text="-10" />
+      <Line fx:id="MediumLIne2" endX="696.0" layoutX="105.0" layoutY="291.0" startX="-104.0" />
+      <Text fx:id="MediumQue3" layoutX="240.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 3: What is -32 + 13 -7 ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="MediumQue3Ch1" layoutX="205.0" layoutY="366.0" mnemonicParsing="false" onAction="#OnActionMediumQue3Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 26" />
+      <Button fx:id="MediumQue3Ch2" layoutX="301.0" layoutY="366.0" mnemonicParsing="false" onAction="#OnActionMediumQue3Ch1" prefHeight="30.0" prefWidth="85.0" text="B: -26" />
+      <Button fx:id="MediumQue3Ch3" layoutX="400.0" layoutY="366.0" mnemonicParsing="false" onAction="#OnActionMediumQue3Ch3" prefHeight="30.0" prefWidth="85.0" text="C: -20" />
+      <Button fx:id="MediumQue3Ch4" layoutX="500.0" layoutY="366.0" mnemonicParsing="false" onAction="#OnActionMediumQue3Ch4" prefHeight="30.0" prefWidth="85.0" text="-23" />
+      <Button fx:id="MediumSubmitButton" layoutX="284.0" layoutY="425.0" mnemonicParsing="false" onAction="#OnActionMediumSubmitButton" prefHeight="50.0" prefWidth="230.0" text="Button" />
+   </children>
+</AnchorPane>

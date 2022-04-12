@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="HardLine2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.GameController">
+   <children>
+      <Text fx:id="LevelHardTitle" layoutX="330.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level Hard">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="HardQue1" layoutX="283.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is 12 x 6 ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="HardQue1Ch1" layoutX="198.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionHardQue1Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 75" />
+      <Button fx:id="HardQue1Ch2" layoutX="300.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionHardQue1Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 72" />
+      <Button fx:id="HardQue1Ch3" layoutX="400.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionHardQue1Ch3" prefHeight="30.0" prefWidth="85.0" text="C: 65" />
+      <Button fx:id="HardQue1Ch4" layoutX="500.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnActionHardQue1Ch4" prefHeight="30.0" prefWidth="85.0" text="78" />
+      <Line fx:id="HardLine1" endX="685.0" layoutX="115.0" layoutY="176.0" startX="-115.0" />
+      <Text fx:id="HardQue2" layoutX="265.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is 35 x 5 + 9 ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="HardQue2Ch1" layoutX="198.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionHardQue2Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 184" />
+      <Button fx:id="HardQue2Ch2" layoutX="300.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionHardQue2Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 150" />
+      <Button fx:id="HardQue2Ch3" layoutX="400.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionHardQue2Ch3" prefHeight="30.0" prefWidth="85.0" text="C: 165" />
+      <Button fx:id="HardQue2Ch4" layoutX="500.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnActionHardQue2Ch4" prefHeight="30.0" prefWidth="85.0" text="D: 180" />
+      <Line endX="685.0" layoutX="115.0" layoutY="296.0" startX="-115.0" />
+      <Text fx:id="HardQue3" layoutX="234.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: What is 12 x 10 - 97 + 49 ?">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="HardSubmitButton" layoutX="285.0" layoutY="436.0" mnemonicParsing="false" onAction="#OnActionHardSubmitButton" prefHeight="50.0" prefWidth="230.0" text="Submit" />
+      <Button fx:id="HardQue4Ch1" layoutX="198.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionHardQue4Ch1" prefHeight="30.0" prefWidth="85.0" text="A: 86" />
+      <Button fx:id="HardQue4Ch2" layoutX="300.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionHardQue4Ch2" prefHeight="30.0" prefWidth="85.0" text="B: 75" />
+      <Button fx:id="HardQue4Ch3" layoutX="400.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionHardQue4Ch3" prefHeight="30.0" prefWidth="85.0" text="C: 72" />
+      <Button fx:id="HardQue4Ch4" layoutX="500.0" layoutY="368.0" mnemonicParsing="false" onAction="#OnActionHardQue4Ch4" prefHeight="30.0" prefWidth="85.0" text="D: 93" />
+   </children>
+</AnchorPane>
